@@ -11,7 +11,7 @@
 	<groupId>com.vts.rcs.pushapi</groupId>
 	<artifactId>rcspushapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	
 	<name>rcspushapi</name>
 	<description>rcspushapi</description>
 	<url/>
@@ -60,11 +60,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-tomcat</artifactId>
-<scope>provided</scope>
-</dependency>
+		
 		<dependency>
 			<groupId>com.vts</groupId>
 			<artifactId>rcs-domain</artifactId>
@@ -78,6 +74,11 @@
          <groupId>org.springframework.boot</groupId>
          <artifactId>spring-boot-starter-actuator</artifactId>
      </dependency>
+     <dependency>
+         <groupId>de.codecentric</groupId>
+         <artifactId>spring-boot-admin-starter-client</artifactId>
+         <version>3.3.5</version>
+      </dependency>
          
 	</dependencies>
 
